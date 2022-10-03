@@ -14,3 +14,6 @@ int jumpingOnClouds(vector<int> c) {
     }
     return minimumJump;
 }
+
+// if there is thunderheads(1) that mean we can move single step. And check the last element whether we are out bound or not
+// else we can move two steps
