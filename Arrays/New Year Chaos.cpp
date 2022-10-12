@@ -35,10 +35,12 @@ void minimumBribes(vector<int> q) {
 }
 
 /**
-Space Complexity: 0(1) because no extra array need. no matter the size the q, we still need same number of variables.
-Time Complexity: 0(n^2) because bubble sort is going like n + (n-2) + (n-3)
 
-1. In this problem, the total number of bribes will be number of swaps occurs.
-2. consecutive_bribe will be how many swap happaned for every steps of i
-3. previous_bribes is used for optimization(logically). if the all number is already sorted then we don't need to do any swap for the next time.
+---> Space Complexity: 0(1) because no extra array needed. no matter the size the q, we still need same number of variables.
+---> Time Complexity: 0(n^2) because bubble sort is going like n + (n-2) + (n-3)+...
+
+--> 1. In this problem, the total number of bribes will be number of swaps occurs.
+--> 2. consecutive_bribe will be how many swap happaned for every steps of i
+--> 3. previous_bribes is used for optimization(logically). If all numbers(given input) are already sorted then we don't need to do any swap for the next time.
+
 **/
